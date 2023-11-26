@@ -2,7 +2,6 @@
 CREATE TABLE IF NOT EXISTS ugyfelek (
     ugyfel_id INT PRIMARY KEY AUTO_INCREMENT,
     nev VARCHAR(50) NOT NULL,
-    szuletesi_datum DATE NOT NULL,
     lakcim VARCHAR(150) UNIQUE NOT NULL,
     szemelyi_szam VARCHAR(8) NOT NULL
 );
